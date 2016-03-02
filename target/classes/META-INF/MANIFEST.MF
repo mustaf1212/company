@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: Companies
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.task
+Build-Jdk: 1.7.0_95
+Built-By: andriy
+Created-By: Maven Integration for Eclipse
+

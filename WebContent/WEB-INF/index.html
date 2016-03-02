@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<title>Companies</title>
+</head>
+<body>
+
+		<div class="container">
+			<div class="cold-md-12">
+				<hr>
+				<section>
+					<title>Get All companies</title>
+					<button onclick="getAllCompanies()"class="btn btn-success">Get all companies</button>
+					<section>
+						<title>All companies:</title>
+						<div id="compList"></div>
+					</section>
+				</section>
+			</div>
+			<div class="cold-md-12">
+				<form>
+					<h3>Add new company</h3>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Company Name</label>
+				    <input id="compName" type="text" class="form-control" id="companyName" placeholder="company Name" required>
+				  </div>
+					<div class="form-group">
+				    <label for="exampleInputEmail1">Company estimatedEarnings</label>
+				    <input id="estEarn" type="text" class="form-control" id="companyName" placeholder="company estimatedEarnings" required>
+				  </div>
+					<div class="form-group">
+				    <label for="exampleInputEmail1">Company Id</label>
+				    <input type="text" id="compId" class="form-control" id="companyName" placeholder="company Id" required>
+				  </div>
+				  <button type="submit" onclick="addNewCompany()" class="btn btn-warning">Submit</button>
+				</form>
+			</div>
+			<div class="cold-md-12">
+				<section>
+					<title>Delete Company by ID</title>
+					<form>
+						<h3>Delete Company</h3>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Company Id</label>
+					    <input type="text" id="delId" class="form-control" id="companyName" placeholder="company Id" required>
+					  </div>
+					  <button type="submit" onclick="deleteComp()"class="btn btn-danger">Delete</button>
+					</form>
+				</section>
+			</div>
+		</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="javaScript/main.js"></script>
+</body>
+</html>
