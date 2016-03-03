@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import models.Company;
+import com.companies.domain.Company;
 
 public interface CompanyDao {
 

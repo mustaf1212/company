@@ -12,7 +12,7 @@
 		<property name="show_sql">false</property>
 		<!--<property name="hbm2ddl.auto">update</property> -->
 
-		<mapping class = "models.Company"/>
+		<mapping class = "com.companies.domain.Company"/>
 
 	</session-factory>
 </hibernate-configuration> 

@@ -2,7 +2,7 @@ package com.companies.services;
 
 import java.util.List;
 
-import models.Company;
+import com.companies.domain.Company;
 
 public interface CompanyService {
 	

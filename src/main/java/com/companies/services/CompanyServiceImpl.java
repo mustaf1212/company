@@ -6,10 +6,9 @@ import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.companies.domain.Company;
 import com.companies.persistance.CompanyDao;
-
-import models.Company;
-import view.CompaniesView;
+import com.companies.util.CompaniesView;
 
 @Component
 public class CompanyServiceImpl implements CompanyService{

@@ -8,8 +8,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 
-import hibernate.HibernateUtil;
-import models.Company;
+import com.companies.domain.Company;
 
 public class CompanyDaoHibernateImpl implements CompanyDao {
 

@@ -11,9 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.companies.domain.Company;
 import com.companies.services.CompanyService;
-
-import models.Company;
 
 @RestController
 @RequestMapping("/company")
